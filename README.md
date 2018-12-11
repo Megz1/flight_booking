@@ -1,5 +1,5 @@
 ﻿# Flight Booking System
-This is a small project I worked on one summer in my free time after taking a data structures and algorithms class at my university.
+This was a university C++ project that implements Djikstra's shortest path algorithm to simulate a flight booking system.
 
 ## Features
 * Read in provided CSV files to get hub and flight information
@@ -16,7 +16,7 @@ This is a small project I worked on one summer in my free time after taking a da
 * Follow the prompts
 
 ###### Windows
-This project was written for Linux so running on Visual Studio may require an installation of Windows Subsystem for Llinux (WSL)
+This project was written for Linux so running on Visual Studio may require an installation of Windows Subsystem for Linux (WSL)
 * Clone the project
 * Open the solution file in Visual Studio
 * Configure a connection to your WSL installation
