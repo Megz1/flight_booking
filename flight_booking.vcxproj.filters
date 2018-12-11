@@ -5,6 +5,7 @@
     <ClCompile Include="Hub.cpp" />
     <ClCompile Include="Flight.cpp" />
     <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Graph.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Include">
