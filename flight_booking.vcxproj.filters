@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Hub.cpp" />
+    <ClCompile Include="Flight.cpp" />
+    <ClCompile Include="Date.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{bd909f30-c0e3-405f-a614-9222057af89c}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{a8ebc03b-d921-44a4-a733-c0368203e5ce}</UniqueIdentifier>
+      <Extensions>csv</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Hub.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Flight.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Flight.csv">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\Hub.csv">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
